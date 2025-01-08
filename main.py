@@ -1,6 +1,6 @@
 import sys, colorama, os, time, socket, threading
 
-print(colorama.Fore.RED + "Red Otiopo Python Script")
+print(colorama.Fore.RED + "Red Python Script")
 print(colorama.Fore.GREEN + "args: " + str(sys.argv) + colorama.Style.RESET_ALL)
 print("Console Loaded.") 
 print(colorama.Fore.YELLOW + r"""
@@ -39,7 +39,7 @@ if "SUDO_UID" in os.environ.keys():
         print("sudo enabled!")
         print(colorama.Fore.RED + "-" * 69)
         print(colorama.Fore.RED + "|" + (" " * 67) + "|")
-        print(colorama.Fore.RED + "|                             Made By otiopo                               |")
+        print(colorama.Fore.RED + "|                             Made By Ooor28                               |")
         print(colorama.Fore.RED + "|" + (" " * 67) + "|")
         print(colorama.Fore.RED + "-" * 69)
         print(colorama.Style.RESET_ALL)
